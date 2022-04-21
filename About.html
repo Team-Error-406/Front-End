@@ -1,189 +1,399 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
-<Style>
-    body {
-        background-color: rgb(10, 197, 197);
-    }
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    .carousel-item {
-        height: 100vh;
-        min-height: 300px;
-        background: no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+        <title>E.C.S - About Page</title>
 
-    .carousel-caption {
-        bottom: 270px;
-    }
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    .carousel-caption h5 {
-        font-size: 45px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-top: 25px;
-    }
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    .carousel-caption p {
-        width: 75%;
-        margin: auto;
-        font-size: 18px;
-        line-height: 1.9;
-    }
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
-    .navbar-light .navbar-brand {
-        color: #fff;
-        font-size: 25px;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-    .navbar-light .navbar-nav .active>.nav-link,
-    .navbar-light .navbar-nav .nav-link.active,
-    .navbar-light .navbar-nav .nav-link.show,
-    .navbar-light .navbar-nav .show>.nav-link {
-        color: #fff;
-    }
+        <link rel="stylesheet" href="css/slick.css"/>
 
-    .navbar-light .navbar-nav .nav-link {
-        color: #fff;
-    }
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+        
+<!--
 
-    .navbar-toggler {
-        background: #fff;
-    }
+Tooplate 2127 Little Fashion
 
-    .navbar-nav {
-        text-align: center;
-    }
+https://www.tooplate.com/view/2127-little-fashion
 
-    .nav-link {
-        padding: .2rem 1rem;
-    }
+-->
+    </head>
+    
+    <body>
 
-    .nav-link.active,
-    .nav-link:focus {
-        color: #fff;
-    }
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
 
-    .navbar-toggler {
-        padding: 1px 5px;
-        font-size: 18px;
-        line-height: 0.3;
-    }
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-    .navbar-light .navbar-nav .nav-link:focus,
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: #fff;
-    }
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>E.C</span>.S</strong>
+                    </a>
 
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
 
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
 
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html">About Us</a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link" href="OurPartner.html">Our Partners</a>
+                            </li>
 
-    /* ignore the code below */
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">FAQs</a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
 
-    .link-area {
-        position: absolute;
-        bottom: 40px;
-        left: 40%;
-        padding: 15px;
-        border-radius: 40px;
-        background: tomato;
-    }
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
 
-    .link-area a {
-        text-decoration: none;
-        color: #fff;
-        font-size: 25px;
-    }
+                             
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
+            <header class="site-header section-padding-img site-header-image">
+                <div class="container">
+                    <div class="row">
 
+                        <div class="col-lg-6 col-12 header-info">
+                            <h1>
+                                <span class="d-block text-primary">Cheque</span>
+                                <span class="d-block text-dark">Settlement</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
 
-    .container12 {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 100px;
-        color: #fff;
+                <img src="images/header/grp2.jpeg" class="header-image img-fluid" alt="">
+            </header>
 
-    }
+            <section class="team section-padding">
+                <div class="container">
+                    <div class="row">
 
-    .container12 h1 {
-        text-align: center;
-    }
+                        <div class="col-12">
+                            <h2 class="mb-5">Meet our <span>team</span></h2>
+                        </div>
 
-    .container12 p {
-        margin-left: 50px;
-        margin-right: 50px;
-        padding: 10px;
-        justify-content: center;
-        font-size: 24px;
-    }
-</Style>
+                        <div class="col-lg-4 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/people/NasirHusian.png" class="img-fluid custom-circle-image team-image me-4" alt="">
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">E.C.S</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                                <div class="team-info">
+                                    <h5 class="mb-0">Nasir Husain</h5>
+                                    <strong class="text-muted">Front End Developer</strong>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="About.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Contact.html">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="lg.html"><button>Register/Login</button></a>
-                    </li>
-                </ul>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#don">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/people/grp3.jfif" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">Amresh Mallick</h5>
+                                    <strong class="text-muted">ML , Front End & Back End Developer</strong>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#kelly">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-lg-0 mb-4 col-12">
+                            <div class="team-thumb d-flex align-items-center">
+                                <img src="images/people/grp4.jfif" class="img-fluid custom-circle-image team-image me-4" alt="">
+
+                                <div class="team-info">
+                                    <h5 class="mb-0">Deepti Kumari</h5>
+                                    <strong class="text-muted">Front End Developer</strong>
+
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#marie">
+                                      <i class="bi-plus-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonial section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-9 mx-auto col-11">
+                            <h2 class="text-center">Customer love, <br> <span>E.C.</span>.S</h2>
+
+                            <div class="slick-testimonial">
+                                <div class="slick-testimonial-caption">
+                                    <p class="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
+
+                                    <div class="slick-testimonial-client d-flex align-items-center mt-4">
+                                        <img src="images/people/grp5.jfif" class="img-fluid custom-circle-image me-3" alt="">
+
+                                        <span>Ankit Raja, <strong class="text-muted">Back End Developer</strong></span>
+                                    </div>
+                                </div>
+
+                                <div class="slick-testimonial-caption">
+                                    <p class="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
+
+                                    <div class="slick-testimonial-client d-flex align-items-center mt-4">
+                                        <img src="images/people/grp6.jfif" class="img-fluid custom-circle-image me-3" alt="">
+
+                                        <span>Abhishek Deep, <strong class="text-muted">Back End Developer</strong></span>
+                                    </div>
+                                </div>
+
+                                <div class="slick-testimonial-caption">
+                                    <p class="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
+
+                                    <div class="slick-testimonial-client d-flex align-items-center mt-4">
+                                        <img src="images/people/NasirHusian.png" class="img-fluid custom-circle-image me-3" alt="">
+
+                                        <span>Nasir Husain, <strong class="text-muted">Software Developer</strong></span>
+                                    </div>
+                                </div>
+
+                                <div class="slick-testimonial-caption">
+                                    <p class="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
+
+                                    <div class="slick-testimonial-client d-flex align-items-center mt-4">
+                                        <img src="images/people/grp3.jfif" class="img-fluid custom-circle-image me-3" alt="">
+
+                                        <span>Amresh Mallick, <strong class="text-muted">Software Developer</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">E.C</a> .S</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>E.C.S</strong></p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href=" " target="_blank">Team Error-406</a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3">Sitemap</h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">About Us</a></li>
+
+                            <li class="footer-menu-item"><a href="OurPartner.html" class="footer-menu-link">Our Partners</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy policy</a></li>
+
+                            <li class="footer-menu-item"><a href="faq.html" class="footer-menu-link">FAQs</a></li>
+
+                            <li class="footer-menu-item"><a href="contact.html" class="footer-menu-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Social</h5>
+
+                        <ul class="social-icon">
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- TEAM MEMBER MODAL -->
+        <div class="modal fade" id="don" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content border-0">
+                    <div class="modal-header flex-column">
+                        <h3 class="modal-title" id="exampleModalLabel">Nasir Husain</h3>
+
+                        <h6 class="text-muted">Front End Developer, Software Developer</h6>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5 class="mb-4">Over three years in business had the chance to work on variety of projects, with companies</h5>
+
+                        <div class="row mb-4">
+                            <div class="col-lg-6 col-12">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <p>Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse commodo viverra.</p>
+                            </div>
+                        </div>
+
+                        <ul class="social-icon">
+                            <li class="me-3"><strong>Where to find?</strong></li>
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </nav>
-    <div class="container12">
-        <h1>About Us</h1>
-        <p>
-            The Project Automatic Cheque Settlement System is the Fastest Way of Clearing of Cheques In this The Cheque
-            Will First Scanning by Some Algorithms Model to Find or Clear cut the the A/C Number and all details which
-            needs to be requires for Transferring the money from one bank to another bank account. The whole detail will
-            store in database and throughout on the server the payment request will hold until the process gets success.
-            The Whole process will take less than an hour or depend on server speed since the main thing i.e. to clear
-            out the details from cheque using latest technologies like OpenCV, ML library, Front-End, Databases,
-            Networks, etc. This System would be Helpful for Customers and Save lot of Time. <a
-                href="https://codernasir.github.io/PortfolioNH/">  Read More</a>
 
-        </p>
-    </div>
+        <!-- TEAM MEMBER MODAL -->
+        <div class="modal fade" id="kelly" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content border-0">
+                    <div class="modal-header flex-column">
+                        <h3 class="modal-title" id="exampleModalLabel">Amresh Mallick</h3>
 
+                        <h6 class="text-muted">ML , Front & Back End Developer, Software Developer</h6>
 
-</body>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
 
+                    <div class="modal-body">
+                        <h5 class="mb-4">Over three years in business had the chance to work on variety of projects, with companies</h5>
+
+                        <div class="row mb-4">
+                            <div class="col-lg-6 col-12">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <p>Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse commodo viverra.</p>
+                            </div>
+                        </div>
+
+                        <ul class="social-icon">
+                            <li class="me-3"><strong>Where to find?</strong></li>
+
+                            <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- TEAM MEMBER MODAL -->
+        <div class="modal fade" id="marie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content border-0">
+                    <div class="modal-header flex-column">
+                        <h3 class="modal-title" id="exampleModalLabel">Deepti Kumari</h3>
+
+                        <h6 class="text-muted">Front End Developer </h6>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5 class="mb-4">Over three years in business had the chance to work on variety of projects, with companies</h5>
+
+                        <div class="row mb-4">
+                            <div class="col-lg-6 col-12">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <p>Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse commodo viverra.</p>
+                            </div>
+                        </div>
+
+                        <ul class="social-icon">
+                            <li class="me-3"><strong>Where to find?</strong></li>
+
+                            <li><a href="#" class="social-icon-link bi-twitter"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-envelope"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
 </html>
